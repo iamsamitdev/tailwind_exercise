@@ -1,0 +1,22 @@
+{
+  "name": "tailwind_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js -e ejs,js,css,html,jpg,png,scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^2.0.7",
+    "reload": "^3.1.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
