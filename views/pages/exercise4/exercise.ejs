@@ -27,13 +27,75 @@
         </div>
     </div>
 
-    <h2 class="mb-5 text-2xl font-extrabold">Visited</h2>
+    <h2 class="mb-5 text-2xl font-extrabold">Hover with transition</h2>
 
-    <div class="p-10 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
-        <div class="space-x-16 text-center">
-            <a href="http://www.google.com" class="font-semibold visited:text-blue-600">Unvisited link</a>
-            <a href="#demo" class="font-semibold visited:text-purple-600">Visited link</a>
+    <div class="p-10 mb-5 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <div class="text-center">
+            <button type="button"
+                class="px-4 py-2 font-semibold text-white bg-blue-500 rounded-lg shadow-md bg-light-blue-500 focus:outline-none"
+                tabindex="-1">
+                Hover me
+            </button>
+
         </div>
     </div>
+
+    <h2 class="mb-5 text-2xl font-extrabold">Visited</h2>
+
+    <div class="p-10 mb-5 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <div class="space-x-16 text-center">
+            <a href="http://www.facebook.com" target="_blank" class="font-semibold text-blue-600">Unvisited link</a>
+            <a href="http://www.twitter.com" target="_blank" class="font-semibold text-blue-600">Visited link</a>
+        </div>
+    </div>
+    
+    <h2 class="mb-5 text-2xl font-extrabold">Form , Input</h2>
+
+    <div class="p-10 mb-5 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <div>
+
+            <label class="items-center block mb-3">
+                <span class="text-gray-700">Name</span>
+                <input class="block w-full mt-1" placeholder="Jane Doe">
+            </label>
+
+            <label class="items-center block space-x-3">
+                <input type="checkbox" name="checked-demo" value="1">
+                <span class="font-medium text-gray-900">Movie</span>
+            </label>
+
+            <label class="items-center block mt-3 space-x-3">
+                <input type="checkbox">
+                <span class="font-medium text-gray-900">Music</span>
+            </label>
+
+            <label class="items-center block mt-3 space-x-3">
+                <input type="radio" name="radio" value="1">
+                <span class="font-medium text-gray-9002">Male</span>
+            </label>
+
+            <label class="items-center block mt-3 space-x-3">
+                <input type="radio"name="radio" value="1">
+                <span class="font-medium text-gray-9002">Female</span>
+            </label>
+
+            <label class="block mt-5">
+                <select>
+                    <option>Electronic</option>
+                    <option>Cloth</option>
+                    <option>Mom & Kid</option>
+                    <option>Home & Garden</option>
+                </select>
+            </label>
+
+            <label class="block mt-5">
+                <span class="text-gray-700">Description</span>
+                <textarea rows="3"
+                    placeholder="Enter some long form content."></textarea>
+            </label>
+
+        </div>
+    </div>
+
 
 </div>

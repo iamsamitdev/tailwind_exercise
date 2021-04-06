@@ -12,9 +12,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      translate: ['motion-safe'],
       textColor: ['visited'],
+      backgroundColor: ['checked'],
+      borderColor: ['checked'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ]
 }
