@@ -11,7 +11,10 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ['motion-safe'],
+      textColor: ['visited'],
+    },
   },
   plugins: [],
 }

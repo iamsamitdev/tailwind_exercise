@@ -1,16 +1,39 @@
-<div class="h-full p-4 bg-gray-50">
-    <div class="inline-block rounded-md shadow-sm">
-        <button type="button"
-            class="float-left px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-l-md hover:text-gray-500 focus:outline-none active:bg-gray-100 active:text-gray-700">
-            Years
-        </button>
-        <button type="button"
-            class="float-left px-4 py-2 -ml-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 hover:text-gray-500 focus:outline-none active:bg-gray-100 active:text-gray-700">
-            Months
-        </button>
-        <button type="button"
-            class="float-left px-4 py-2 -ml-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-r-md hover:text-gray-500 focus:outline-none active:bg-gray-100 active:text-gray-700">
-            Days
-        </button>
+<div class="px-6 py-8 overflow-y-auto">
+    <h1 class="inline-block mb-10 text-3xl font-extrabold tracking-tight text-gray-900">Hover, Focus</h1>
+
+    <div class="relative mb-8 overflow-hidden">
+        <div class="p-10 overflow-hidden rounded-t-xl bg-gradient-to-r from-purple-50 to-purple-100">
+            <form class="flex w-full max-w-sm mx-auto space-x-3">
+                <input
+                    class="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border-transparent rounded-lg shadow-md appearance-none"
+                    type="email" placeholder="Your email">
+                <button
+                    class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md"
+                    type="button">
+                    Sign up
+                </button>
+            </form>
+        </div>
     </div>
+
+    <h2 class="mb-5 text-2xl font-extrabold">Group-hover</h2>
+
+    <div class="p-10 mb-6 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <div
+            class="max-w-full px-6 py-5 mx-auto space-y-1 overflow-hidden border border-indigo-500 border-opacity-25 rounded-lg cursor-pointer select-none w-72">
+            <p class="text-lg font-semibold text-indigo-600">New Project</p>
+            <p class="text-indigo-500">Create a new project from a variety of starting
+                templates.</p>
+        </div>
+    </div>
+
+    <h2 class="mb-5 text-2xl font-extrabold">Visited</h2>
+
+    <div class="p-10 overflow-hidden rounded-t-xl bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <div class="space-x-16 text-center">
+            <a href="http://www.google.com" class="font-semibold visited:text-blue-600">Unvisited link</a>
+            <a href="#demo" class="font-semibold visited:text-purple-600">Visited link</a>
+        </div>
+    </div>
+
 </div>
