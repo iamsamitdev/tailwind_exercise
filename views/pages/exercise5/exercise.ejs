@@ -1,17 +1,65 @@
-<div class="p-8">
-    <img class="w-56 rounded-lg"
-        src="images/customer.jpg"
-        alt="Woman paying for a purchase" />
-    <div>
-        <div class="text-sm font-bold tracking-wide text-indigo-600 uppercase">
-            Marketing
+<div class="h-full bg-gradient-to-r from-indigo-50 to-indigo-100">
+
+    <div class="w-full text-gray-700 bg-white">
+
+        <div>
+
+            <div>
+                <a href="#">TailWind</a>
+                <button>
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                        <path x-show="!open" fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                        <path x-show="open" fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <nav>
+                
+                <a href="#">Blog</a>
+                <a href="#">Portfolio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                
+                <div>
+
+                    <button>
+                        <span>Dropdown</span>
+                        <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <div>
+                        <div>
+                            <div>
+                                <a href="#">Link #1</a>
+
+                                <a href="#">Link #2</a>
+
+                                <a href="#">Link #3</a>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+
         </div>
-        <a href="#" class="block mt-1 text-lg font-semibold leading-tight text-gray-900 hover:underline">
-            Finding customers for your new business
-        </a>
-        <p class="mt-2 text-gray-600">
-            Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your
-            first customers.
-        </p>
+
     </div>
+
+    <div>
+        <h1>My title</h1>
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim amet animi totam quaerat commodi molestiae deleniti minus pariatur, voluptatibus nihil unde, provident quisquam expedita cupiditate, fuga beatae suscipit dolorum odit.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim amet animi totam quaerat commodi molestiae deleniti minus pariatur, voluptatibus nihil unde, provident quisquam expedita cupiditate, fuga beatae suscipit dolorum odit.</p>
+    </div>
+    
 </div>

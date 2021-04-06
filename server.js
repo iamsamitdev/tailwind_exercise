@@ -62,6 +62,18 @@ app.get("/exercise-12", function (req, res) {
     res.render("pages/exercise12/index", {title: 'Exercise 12', page_name: 'exercise12'})
 })
 
+app.get("/exercise-13", function (req, res) {
+    res.render("pages/exercise13/index", {title: 'Exercise 13', page_name: 'exercise13'})
+})
+
+app.get("/exercise-14", function (req, res) {
+    res.render("pages/exercise14/index", {title: 'Exercise 14', page_name: 'exercise14'})
+})
+
+app.get("/exercise-15", function (req, res) {
+    res.render("pages/exercise15/index", {title: 'Exercise 15', page_name: 'exercise15'})
+})
+
 const server = http.createServer(app)
 const PORT = process.env.PORT || 5500
 
