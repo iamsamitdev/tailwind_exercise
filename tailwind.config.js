@@ -12,12 +12,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      textColor: ['visited'],
-      backgroundColor: ['checked'],
-      borderColor: ['checked'],
+      // textColor: ['visited'],
+      // backgroundColor: ['checked'],
+      // borderColor: ['checked'],
     },
   },
   plugins: [
-    require('@tailwindcss/custom-forms'),
+    // require('@tailwindcss/custom-forms'),
   ]
 }
